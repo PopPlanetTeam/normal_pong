@@ -47,6 +47,5 @@ func reset_ball():
 	ball.direction.x *= -1	
 	ball.speed = 300
 	ball.scale = Vector2(1.0, 1.0)
-	ball.modulate = Color(randf(), randf(), randf())
 	
 	

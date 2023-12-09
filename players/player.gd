@@ -30,7 +30,3 @@ func get_axis(up_key, down_key):
 func _on_area_2d_body_entered(body):
 	body.direction.x *= -1
 	body.scale *= 0.99
-	#body.scale.x = max(0.5, body.scale.x)
-	#body.scale.y = max(0.5, body.scale.y)
-	
-	

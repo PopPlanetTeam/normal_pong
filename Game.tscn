@@ -12,11 +12,11 @@ script = ExtResource("1_ekyok")
 [node name="Map" parent="." instance=ExtResource("3_apbbr")]
 
 [node name="Player1" parent="." instance=ExtResource("1_im1cb")]
-modulate = Color(0, 0, 1, 1)
+modulate = Color(1, 0, 0, 1)
 position = Vector2(128, 324)
 
 [node name="Player2" parent="." instance=ExtResource("1_im1cb")]
-modulate = Color(1, 0, 0, 1)
+modulate = Color(0, 1, 0, 1)
 position = Vector2(1024, 324)
 side = "right"
 
