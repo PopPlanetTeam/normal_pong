@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
-var speed = 300.0
-var direction = Vector2.ZERO
+@export var speed = 300.0
+@export var direction = Vector2.ZERO
 
 const STARTING_BALL_SPEED = 300
 const MAX_BALL_VELOCITY = 800

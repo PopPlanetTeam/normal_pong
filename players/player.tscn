@@ -309,7 +309,7 @@ texture = ExtResource("2_8t1kl")
 [sub_resource type="TileSet" id="TileSet_dqb3r"]
 sources/0 = SubResource("TileSetAtlasSource_dv2p7")
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" groups=["Player"]]
 script = ExtResource("1_i0kuq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
